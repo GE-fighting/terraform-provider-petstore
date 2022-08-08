@@ -38,7 +38,6 @@ jobs:
         uses: crazy-max/ghaction-import-gpg@v5
         env:
           # These secrets will need to be configured for the repository:
-        
           PASSPHRASE: ${{ secrets.PASSPHRASE }}
       -
         name: Run GoReleaser
