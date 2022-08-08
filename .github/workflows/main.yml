@@ -38,8 +38,7 @@ jobs:
         uses: crazy-max/ghaction-import-gpg@v5
         env:
           # These secrets will need to be configured for the repository:
-          GPG_PRIVATE_KEY: -----BEGIN PGP PRIVATE KEY BLOCK-----
-                            Version: GnuPG v2.0.22 (GNU/Linux)
+          GPG_PRIVATE_KEY: -----BEGIN PGP PRIVATE KEY BLOCK----- Version: GnuPG v2.0.22 (GNU/Linux)
                             lQc+BGLwYYMBEACS9JOqFA/mvMalGdyVgVe6RMHFRE1kcSYBH8GpfBhvTN2XJ0if
                             hFPID09e5Yf2a1GJUxcIbSe8vUx22tf02bnSyaygiJQfEhveTcQ9JFAN4YWBAV6a
                             5boX5NQbrmRSP58mSamYNI8TQuLvzQb+dX6sJNgVB1AAhlp3wiZjP0I3X9Bf8dnZ
